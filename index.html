@@ -1,0 +1,16 @@
+<script src="https://unpkg.com/vue@3"></script>
+<script type="module">
+const app = Vue.createApp({
+  data() {
+    return {
+      count: 0
+    }
+  }
+})
+
+app.mount('#app')
+  </script>
+  
+  <div id="app">
+    <button @click="count++">{{ count }}</button>
+  </div>
