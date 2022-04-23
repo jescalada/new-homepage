@@ -6,10 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jescalada/new-homepage.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jescalada/new-homepage/issues"
+  },
+  "homepage": "https://github.com/jescalada/new-homepage#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "vue": "^3.2.33"
+    "express": "^4.17.3"
   }
 }
