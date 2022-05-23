@@ -31,6 +31,10 @@ h2 {
     cursor: pointer;
 }
 
+.card {
+    min-width: 12rem;
+}
+
 i {
     font-size: 3rem;
     text-align: center;
